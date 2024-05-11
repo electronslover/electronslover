@@ -10,4 +10,17 @@ class PagesController extends Controller
     {
         return view('index');
     }
+    public function contact()
+    {
+        return view('contact');
+    }
+    public function aboutus()
+    {
+        return view('aboutus');
+    }
+    public function gallery()
+    {
+        return view('gallery');
+    }
+
 }
